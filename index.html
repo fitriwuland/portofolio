@@ -1,0 +1,117 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>Portofolio</title>
+    </head>
+    <body>
+        <header>
+            <div class="navbar">
+                <div class="nama"><h2>Fitri Yanti </h2></div>
+                <div id="menu-icon" class="icon-navbar">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+                <ul id="ul-navbar"  class="hidden">
+                    <li class="li-navbar"><a href="#home">Home</a></li>
+                    <li class="li-navbar"><a href="#about">About Me</a></li>
+                    <li class="li-navbar"><a href="#project">Project</a></li>
+                    <li class="li-navbar"><a href="#skill">Skill</a></li>
+                    <li class="li-navbar"><a href="#contact">Contact</a></li>
+                </ul>
+                
+        </header>
+        <main>
+        <section id="home">
+            <div class="grid-container">
+                <div class="grid-item">
+                    <h3 class="me">Hi, It's Me</h3>
+                    <h2 class="name">Fitri Yanti WulanDini</h2>
+                    <h4 class="FE">Front-end Developer</h4>
+                    <p class="desc">A dedicated Information Systems student from ITB Ahmad Dahlan Jakarta seeking an internship position to utilize academic knowledge and interprofessional skills in web development, visual design and web layout. I have a passion in Front-end Developer</p>
+                    <a href="#contact" class="button">Contact Me</a>
+                </div>
+                <div class="grid-item">
+                    <img class="konten1" src="Boho quote.jpg">
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <div class="wrapper">
+                <img class="img-wrapper" src="abt.jpg">
+                <h2 class="abt-T"> Hello!
+                    <br>
+                    I'm Fitri Yanti</h2>
+                <p class="abt-h4"> Hi everyone, My name is Fitri Yanti WulanDini, i'm a third year System Information student at ITB Ahmad Dahlan Jakarta, seeking an internship position in the Frontend Developer .
+                    <br>
+                    <br>
+                    I am eager to grow as a Front-end Developer through internships, collaborations, and web-based projects. Let’s connect!
+                    </p>
+            </div>
+        </section>
+        <section id="project">
+            <h1 class="h1-pro">My Project</h1>
+            <div class="project">
+                <div class="slides-img">
+                    <img class="img-pro" src="project.png">
+                    <img class="img-pro" src="product.png">
+                    <img class="img-pro" src="cart.png">                
+                    <img class="img-pro" src="struk.png">
+                    <img class="img-pro" src="login.png">
+                </div>
+                <a class="prev" onclick="plusSlides(-1)"> ❮ </a>
+                <a class="next" onclick="plusSlides(1)"> ❯ </a>
+                <h4>E-commerce Website</h4>
+                <p>An e-commerce website that includes login, home page, product catalog, shopping cart, and receipt design features. By using HTML, CSS, PHP, and JavaScript and using Visual Studi Code tools.
+                <br>
+                <br>
+                Using Tools : 
+                </p>
+                <div class="tools">
+                <i class="fa-brands fa-html5"></i>
+                <i class="fa-brands fa-css"></i>
+                <i class="fa-brands fa-js"></i>
+                <i class="fa-brands fa-php"></i>
+                <i class="fa-solid fa-database"></i>
+                </div>
+            </div>
+        </section>
+        <section id="skill">
+            <h2 class="h2-skill"> Skill </h2>
+            <div class="logo-skill">
+                
+                <i class="fa-brands fa-html5"></i>
+                <i class="fa-brands fa-css"></i>
+                <i class="fa-brands fa-js"></i>
+            </div>
+        </section>
+        <section id="contact">
+            <h2 class="cont-h2">Contact Me</h2>
+            <div class="form-contact">
+                <h2>Send a Massage Here!</h2>
+            <form action="mailto:fitriyanti.wuland@gmail.com" method="post" enctype="text/plain">
+                <input type="text" placeholder="Name" required>    
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+            </div> 
+            <div class="logo-contact">
+            <a class="cont-logo" href="https://www.linkedin.com/in/fitriyantiwulandini-864647342" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a class="cont-logo" href="mailto:fitriyanti.wuland@gmail.com" target="_blank">
+                <i class="fa-solid fa-envelope"></i>
+            </a>
+            <a class="cont-logo" href="https://www.instagram.com/fitryyant_/" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            
+           </div>
+        </section>
+    </main>
+    <footer>
+    </footer>
+    <script src="main.js"></script>
+    </body>
+</html>
